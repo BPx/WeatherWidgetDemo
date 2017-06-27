@@ -135,7 +135,7 @@ class Widget extends React.PureComponent {
 	
 	_fetchData (city, country) {
 		this.setState({ updating: true });
-		return fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city},${country}&mode=json&units=metric&appid=ce9c80839a617fa92cb3848e35277e0a`, {
+		return fetch(`//api.openweathermap.org/data/2.5/forecast?q=${city},${country}&mode=json&units=metric&appid=ce9c80839a617fa92cb3848e35277e0a`, {
 			mode: 'cors'
 		})
 			.then(response => response.json())

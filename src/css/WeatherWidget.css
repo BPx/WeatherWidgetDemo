@@ -1,0 +1,16 @@
+
+.WeatherWidget {
+	position:  relative;
+	border:  1px solid #000;
+	padding:  1em;
+}
+
+.WeatherWidget > .buttons {
+	position: absolute;
+	top: .5em;
+	right: .5em;
+}
+
+.WeatherWidget > .status {
+	height: 1.5em; /* fix height so it doesn't move other elements when status changes */
+}
